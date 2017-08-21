@@ -7,32 +7,4 @@ This is a boilerplate Node.js app, which provides simple authentication with Fac
 
 <code>npm install</code>
 
-<h3>Configue social login in config/auth.js:</h3>
-
-```javascript
-module.exports = {
-    'facebookAuth' : {
-        clientID: '',
-        clientSecret: '',
-        callbackURL: ''
-    },
-    'twitterAuth' : {
-        consumerKey: '',
-        consumerSecret: '',
-        callbackURL: ''
-    },
-    'googleAuth' : {
-        clientID: '',
-        clientSecret: '',
-        returnURL: ''
-    }
-};
-```
-
-<h3>Configue Mongo from config/database.js:</h3>
-
-```javascript
-module.exports = {
-    'url' : ''
-}
-```
+<h3>Configue social login in .env file, use the .sample-env file as a guide</h3>
