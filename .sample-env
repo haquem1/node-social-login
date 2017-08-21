@@ -1,0 +1,9 @@
+FACEBOOK_ID=your_facebook_id
+FACEBOOK_SECRET=your_facebook_secret
+FACEBOOK_CALLBACK=your_facebook_callback
+TWITTER_KEY=your_twitter_key
+TWITTER_SECRET=your_twitter_secret
+TWITTER_CALLBACK=your_twitter_callback
+GOOGLE_ID=your_google_id
+GOOGLE_SECRET=your_google_secret
+GOOGLE_RETURN=your_google_return

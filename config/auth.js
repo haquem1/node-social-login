@@ -1,17 +1,17 @@
 module.exports = {
     'facebookAuth' : {
-        clientID: '',
-        clientSecret: '',
-        callbackURL: ''
+        clientID: process.env.FACEBOOK_ID,
+        clientSecret: process.env.FACEBOOK_SECRET,
+        callbackURL: process.env.FACEBOOK_CALLBACK
     },
     'twitterAuth' : {
-        consumerKey: '',
-        consumerSecret: '',
-        callbackURL: ''
+        consumerKey: process.env.TWITTER_KEY,
+        consumerSecret: process.env.TWITTER_SECRET,
+        callbackURL: process.env.TWITTER_CALLBACK
     },
     'googleAuth' : {
-        clientID: '',
-        clientSecret: '',
-        returnURL: ''
+        clientID: process.env.GOOGLE_ID,
+        clientSecret: process.env.GOOGLE_SECRET,
+        returnURL: process.env.GOOGLE_RETURN
     }
 };
