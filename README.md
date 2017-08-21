@@ -7,4 +7,4 @@ This is a boilerplate Node.js app, which provides simple authentication with Fac
 
 <code>npm install</code>
 
-<h3>Configue social login in .env file, use the .sample-env file as a guide</h3>
+Configure social login in .env file, use the .sample-env file as a guide
